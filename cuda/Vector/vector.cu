@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cuda_runtime.h>
-#include "cudaUtility.h"
+#include "../include/cudaUtility.h"
 
 __global__ void add(int *a, int *b, int *c){
     int tid = blockIdx.x;
